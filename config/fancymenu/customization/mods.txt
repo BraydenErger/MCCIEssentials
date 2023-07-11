@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = com.terraformersmc.modmenu.gui.ModsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  audio_source:fb058308-e235-4372-bf1e-99bab28d840f1689073303041 = skybattle.ogg;EXTERNAL_LOCAL;40;0
+  orientation = top-left
+  loop = true
+  channel = music
+  x = 14
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = f0ad7e03-1209-4a5c-b735-ca6dbf06f99d1689073300020
+  y = 21
+  once_per_session = false
+  height = 50
+}
+

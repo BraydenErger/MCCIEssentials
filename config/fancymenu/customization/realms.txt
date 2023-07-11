@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_4325
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = music
+  x = 27
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = d8b399a6-c303-486f-9489-e4dade3c11321689073151843
+  y = 35
+  once_per_session = false
+  audio_source:4f8bbf84-8491-44c3-acf8-61c21d0e377b1689073156001 = skybattle.ogg;EXTERNAL_LOCAL;40;0
+  height = 50
+}
+
